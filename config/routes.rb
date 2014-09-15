@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  root 'echos#wall'
   get '/echos/wall' => 'echos#wall'
   resources :echos
 
